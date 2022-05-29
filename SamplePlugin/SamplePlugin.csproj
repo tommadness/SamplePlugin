@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\Data\samplePlugin.json">
+    <Content Include="..\samplePlugin.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="..\Data\goat.png">
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
+    <DalamudLibPath>/home/thomasc/.xlcore/dalamud/Hooks/dev/</DalamudLibPath>
   </PropertyGroup>
 
   <ItemGroup>
